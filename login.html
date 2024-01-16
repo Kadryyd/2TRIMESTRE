@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+<style>
+    body { background-image: url(loginlogo/imag2.jpg);
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+
+    #login { background-color:  rgba(255, 255, 255, 0.5); border-radius: 10px ;
+            width: 35%; 
+            justify-content: space-around;
+            text-align: center;
+    }
+    
+    #login img {width: 20%;}
+    label, input { font-family: Arial, Helvetica, sans-serif; font-size: 2em;}
+    @media (max-width: 600px){
+        #login{width: 90%;}
+    }
+</style>
+
+</head>
+<body>
+    
+    <div id="login">
+        <form action="/procesa.php">
+            <img scr= "C:\Users\pc28\Desktop\LM\2TRIMESTRE\loginlogo\log1.png" alt="">
+
+            <p></p><label for="email">E-mail:</label>
+            <input type ="email" id="email" name="email"></p>
+            <p><label for="contrase">Contaseña:</label>
+            <input type="Password" id="contrase" name="contrase"></p>
+            </form>
+    </div>
+</body>
+</html>
